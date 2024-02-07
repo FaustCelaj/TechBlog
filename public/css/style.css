@@ -1,24 +1,138 @@
-header, .project:not(:last-child) {
-  border-bottom: 1px solid #ccc;
+/* Base styles for a dark theme */
+body {
+  background-color: #121212; /* Dark background for the theme */
+  color: #e0e0e0; /* Light text color for contrast */
+  font-family: 'Roboto', sans-serif; /* Modern font */
 }
 
-.no-button {
-  background: none;
-  border: none;
-  padding: 0;
-  cursor: pointer;
-  color: #1b89bc;
+/* Navigation title styles */
+.navTitle {
+  font-weight: 900;
+  font-size: xx-large;
+  color: #BB86FC; /* Purple accent color */
+}
+
+/* Blog box styles */
+.blogBox {
+  margin-top: 8px;
+  border: 1px solid #333333; /* Subtle borders for elements */
+  background-color: #1F1B24; /* Slightly lighter dark shade for the box */
+  padding: 16px;
+  border-radius: 8px; /* Rounded corners for modern look */
+}
+
+/* Blog title styles */
+.blogTitle {
   text-decoration: none;
-  font-size: 100%;
+  color: #BB86FC; /* Accent color for titles */
 }
 
-.no-button:hover {
-  color: #065b83;
-  text-decoration: underline;
+/* Blog description styles */
+.blogDesc {
+  margin-bottom: 5px;
+  padding: 8px;
+  background-color: #2A2A2A; /* Dark shade for the description area */
+  border-radius: 8px;
 }
 
-.dollar-amount {
-  color: #056605;
+/* Main blog description styles */
+.blogDescMain {
+  font-weight: 700;
+}
+
+/* Secondary blog description styles */
+.blogDescTwo {
+  font-size: 18px; /* Reduced size for a sleek look */
+  font-style: italic;
+}
+
+/* Blog creation styles */
+.blogCreate {
   font-weight: bold;
-  margin-left: -5px;
+  font-style: italic;
+  font-size: 14px; /* Slightly increased size for readability */
+  color: #03DAC5; /* Cyan accent color for creation information */
+}
+
+/* Blog box container styles */
+.blogBoxCont {
+  margin-top: 10px;
+  border: 1px solid #333333;
+  background-color: #1F1B24;
+  padding: 16px;
+  border-radius: 8px;
+}
+
+/* Form container styles */
+.formCont {
+  margin-top: 10px;
+  max-width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #1F1B24;
+  padding: 16px;
+  border-radius: 8px;
+}
+
+/* Comment container styles */
+.commentCont {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  max-width: 75%;
+  background-color: #2A2A2A;
+  padding: 16px;
+  border-radius: 8px;
+  border: 1px dashed #333333;
+}
+
+/* Comment owner styles */
+.commentOwner {
+  font-size: 14px;
+  color: #CF6679; /* Pink accent color for comment owner to stand out */
+}
+
+/* Button styles for comments */
+.btnComment {
+  margin-top: 10px;
+  background-color: #03DAC5; /* Cyan for buttons */
+  color: #121212; /* Dark text on light button for contrast */
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Comment text styles */
+.commentText {
+  font-weight: bold;
+  padding-top: 10px;
+}
+
+/* Header row styles */
+.headerRow {
+  background-color: #1F1B24;
+  margin-bottom: 10px;
+  padding: 16px;
+  border-radius: 8px;
+}
+
+/* Link styles */
+a:link, a:visited {
+  color: #BB86FC; /* Consistent purple accent for links */
+}
+
+/* Link hover effects */
+a:hover {
+  color: #03DAC5; /* Cyan for hover state */
+}
+
+/* Login/signup link margins */
+.login, .signup {
+  margin-left: 25px;
+}
+
+/* Form group margins */
+.form-group {
+  margin-top: 10px;
 }
